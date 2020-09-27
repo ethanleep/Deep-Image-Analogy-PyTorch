@@ -3,6 +3,8 @@ from utils import load_image
 import argparse
 from DeepAnalogy import analogy
 import cv2
+from IPython.display import clear_output
+from IPython.display import Image
 
 def str2bool(v):
     return v.lower() in ('true')
