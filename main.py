@@ -64,9 +64,6 @@ if __name__=="__main__":
     cv2.imwrite(save_path+'/img_AP.png', img_AP)
     cv2.imwrite(save_path+'/img_B.png', img_B)
     print('Image saved!')
-    clear_output()
-    display(Image(save_path + "img_AP.png"))
-    display(Image(save_path + "img_B.png"))
 
     
     
